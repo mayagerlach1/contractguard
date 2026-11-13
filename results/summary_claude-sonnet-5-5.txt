@@ -1,0 +1,13 @@
+MODEL: claude-sonnet-5-5 | contracts: 25 | errors: 0
+
+                       risk caught  false alarms  recall  precision
+         uncapped_liability    7/8            13    0.88       0.35
+termination_for_convenience    9/9             2    1.00       0.82
+                exclusivity  15/15             4    1.00       0.79
+         minimum_commitment   6/11             4    0.55       0.60
+    ip_ownership_assignment  11/13             1    0.85       0.92
+                non_compete  10/11             6    0.91       0.62
+
+Overall: caught 58/67 real risks (87%) | false alarms: 30 | accuracy: 74%
+Quotes found word-for-word: 141/143 (99%)
+Tokens: 369,355 in / 23,505 out | cost: $0.974
