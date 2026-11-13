@@ -1,0 +1,13 @@
+MODEL: claude-haiku-5-5 | contracts: 25 | errors: 0
+
+                       risk caught  false alarms  recall  precision
+         uncapped_liability    8/8            13    1.00       0.38
+termination_for_convenience    9/9             2    1.00       0.82
+                exclusivity  15/15             5    1.00       0.75
+         minimum_commitment   6/11             3    0.55       0.67
+    ip_ownership_assignment  11/13             2    0.85       0.85
+                non_compete  10/11             3    0.91       0.77
+
+Overall: caught 59/67 real risks (88%) | false alarms: 28 | accuracy: 76%
+Quotes found word-for-word: 110/113 (97%)
+Tokens: 369,355 in / 51,313 out | cost: $0.063

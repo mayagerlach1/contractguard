@@ -1,5 +1,8 @@
 from src.config import RISKS
 
+CLARIFICATIONS = """Clarifications:
+- uncapped_liability: Mark it present only if the contract explicitly states that a party's liability is unlimited, or explicitly excludes certain breaches or obligations from a limitation of liability (for example: "the foregoing limitation shall not apply to breaches of confidentiality"). Do NOT mark it present just because the contract has no limitation-of-liability clause, or just because it contains an indemnification obligation."""
+
 
 def build_system_prompt():
     risk_lines = "\n".join(
@@ -11,6 +14,8 @@ For each of the six risk types below, decide whether the contract contains it.
 
 Risk types (key: definition):
 {risk_lines}
+
+{CLARIFICATIONS}
 
 Rules:
 1. Base every answer only on the contract text.

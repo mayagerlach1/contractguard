@@ -5,44 +5,42 @@
       "uncapped_liability": {
         "present": true,
         "quotes": [
-          "INDEMNIFICATION CLAIMS UNDER SECTION 5 OR BREACHES OF SECTION 2 (TRADEMARKS), 8 (CONFIDENTIALITY), OR 9 (NO AGENCY RELATIONSHIP)"
+          "EXCEPT IN CASES OF GROSS NEGLIGENCE, WILLFUL MISCONDUCT OR FRAUD, INDEMNIFICATION CLAIMS UNDER SECTION 5 OR BREACHES OF SECTION 2 (TRADEMARKS), 8 (CONFIDENTIALITY), OR 9 (NO AGENCY RELATIONSHIP), IN NO EVENT SHALL EITHER PARTY OR ITS OFFICERS, DIRECTORS, OR EMPLOYEES BE LIABLE"
         ],
-        "explanation": "The contract contains no liability cap, and the consequential damages waiver expressly excludes indemnification claims and breaches of the trademark and confidentiality provisions, leaving those exposures unlimited."
+        "explanation": "The limitation of liability in Section 4.c expressly excludes indemnification claims, breaches of the trademark section, and breaches of the confidentiality section from its protection."
       },
       "termination_for_convenience": {
         "present": false,
         "quotes": [],
-        "explanation": "Termination under Section 6 is available only upon material breach, insolvency, or assertion of IP in violation of the agreement, and the force majeure termination requires a condition lasting two months or more, not termination without cause."
+        "explanation": "Termination under Section 6.a is limited to material breach, insolvency, or assertion of IP in violation of the Agreement, and force majeure termination under Section 10.f requires a continuing qualifying event, so no termination without cause is permitted."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
           "WPT or its affiliates shall not authorize a Zynga Competitor to commercially exploit the Licensed Property in connection with social poker gaming via a license similar to the license granted herein for the Term."
         ],
-        "explanation": "WPT is barred from licensing its Licensed Property for social poker gaming to a list of named Zynga Competitors during the Term."
+        "explanation": "WPT is prohibited from licensing its Licensed Property for social poker gaming to a list of named Zynga competitors during the Term."
       },
       "minimum_commitment": {
         "present": true,
         "quotes": [
           "Zynga will pay WPT three million U.S. dollars ($3,000,000) per year according to the following schedule"
         ],
-        "explanation": "Zynga must pay WPT a guaranteed minimum of $3,000,000 per year under the Annual Minimum Guarantee, payable in semi-annual installments."
+        "explanation": "Zynga must pay WPT a fixed Annual Minimum Guarantee of $3,000,000 per year, payable on a set schedule."
       },
       "ip_ownership_assignment": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement reserves each party's intellectual property to that party and grants only limited licenses, with no provision transferring created IP to the counterparty."
+        "explanation": "The Agreement states that each party retains its own intellectual property and grants only limited licenses, with no provision assigning created IP to the counterparty."
       },
       "non_compete": {
-        "present": true,
-        "quotes": [
-          "WPT or its affiliates shall not authorize a Zynga Competitor to commercially exploit the Licensed Property in connection with social poker gaming via a license similar to the license granted herein for the Term."
-        ],
-        "explanation": "This clause restricts WPT from licensing its brands to named Zynga competitors for social poker gaming, which limits WPT's ability to operate in that business sector during the Term."
+        "present": false,
+        "quotes": [],
+        "explanation": "The Agreement does not restrict either party from competing in any business, technology sector, or geography, though the competitor restriction in Section 2.e.iv is addressed under exclusivity."
       }
     },
-    "tokens_in": 13113,
-    "tokens_out": 2222,
+    "tokens_in": 13254,
+    "tokens_out": 2281,
     "error": null
   },
   {
@@ -53,40 +51,40 @@
         "quotes": [
           "Except with respect to any claim or liability arising from an infringement of any third party intellectual property right, in no event shall either party be liable for any special, indirect, consequential, punitive or incidental damages of any kind."
         ],
-        "explanation": "The contract contains no monetary cap, and the consequential damages waiver expressly excludes third-party intellectual property infringement claims, leaving that liability uncapped."
+        "explanation": "The limitation of liability in Section 16 expressly excludes claims arising from infringement of third-party intellectual property rights, so those claims are not subject to the damages waiver."
       },
       "termination_for_convenience": {
         "present": true,
         "quotes": [
-          "Rogers may terminate this Agreement, at any time, upon sixty (60) days' prior written notice to Licensor."
+          "Notwithstanding any other provision of this Agreement, Rogers may terminate this Agreement, at any time, upon sixty (60) days' prior written notice to Licensor."
         ],
-        "explanation": "Section 18 lets Rogers terminate at any time on 60 days' notice without any cause requirement."
+        "explanation": "Section 18 lets Rogers terminate the agreement at any time on 60 days' written notice without cause."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
           "Licensor shall not authorize the distribution or exhibition of any Licensed Program by any other means, including, without limitation, television (other than PPV) and internet, for a period of ninety (90) consecutive days following such Licensed Program's VOD availability date."
         ],
-        "explanation": "Licensor is barred for 90 days after VOD availability from licensing Licensed Programs to third parties through other channels, which is a window-based exclusivity, although Section 1 otherwise grants a non-exclusive license."
+        "explanation": "Section 3(c) bars Licensor from licensing Licensed Programs to third parties through other distribution channels for a 90-day window after VOD availability, although the grant to Rogers is otherwise non-exclusive."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "Section 6(e) states there is no minimum License Fee or retail viewing fee, and Rogers has no purchase minimum."
+        "explanation": "Section 6(e) expressly states there is no minimum License Fee or retail viewing fee, and no minimum purchase obligation is imposed on Rogers."
       },
       "ip_ownership_assignment": {
         "present": false,
         "quotes": [],
-        "explanation": "Section 8(a) confirms that Masters remain Licensor's property and no contract clause transfers IP created by one party to the other."
+        "explanation": "The Masters remain Licensor's property and Rogers' subscriber data is created through Rogers' own service, so no IP created by one party is transferred to the other."
       },
       "non_compete": {
         "present": false,
         "quotes": [],
-        "explanation": "The contract contains no restriction on either party competing with the other or operating in a particular business, technology, or geography."
+        "explanation": "The contract contains no restriction on either party competing with the other or operating in a particular territory, business, or technology sector."
       }
     },
-    "tokens_in": 10847,
-    "tokens_out": 2072,
+    "tokens_in": 10988,
+    "tokens_out": 1619,
     "error": null
   },
   {
@@ -95,44 +93,42 @@
       "uncapped_liability": {
         "present": true,
         "quotes": [
-          "EXCEPT IN CONNECTION WITH A BREACH BY EITHER PARTY OF ARTICLE 13, THE INDEMNIFICATION OBLIGATIONS OF NEOFORMA UNDER SECTIONS 15.4(c)",
-          "EACH PARTY'S LIABILITY FOR DAMAGES HEREUNDER SHALL NOT EXCEED $1,000,000."
+          "EXCEPT IN CONNECTION WITH A BREACH BY EITHER PARTY OF ARTICLE 13, THE INDEMNIFICATION OBLIGATIONS OF NEOFORMA UNDER SECTION 15.4(c)"
         ],
-        "explanation": "Section 15.3 applies the $1,000,000 liability cap and the consequential damages waiver to all breaches except breaches of Article 13 (Confidentiality) and certain indemnification obligations, which are therefore uncapped."
+        "explanation": "Section 15.3 expressly excludes breaches of Article 13 (confidentiality) and certain indemnification obligations from both the consequential damages waiver and the $1,000,000 liability cap."
       },
       "termination_for_convenience": {
         "present": false,
         "quotes": [],
-        "explanation": "The contract permits only non-renewal on 30 days' notice under Section 11.1 and termination for uncured material breach under Section 11.2, with no right to terminate without cause during the term."
+        "explanation": "The agreement permits termination only for cause under Section 11.2 or non-renewal at the end of a term under Section 11.1, with no right to terminate mid-term without cause."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
-          "VerticalNet shall not enter into any agreement with a Neoforma Competitor for the on-line listing of Medical Products",
-          "Neoforma shall not enter into, and shall cause its Affiliates to not enter into, any agreement with a third party for the on-line listing of Laboratory Products on a VerticalNet Competitor"
+          "VerticalNet shall not enter into any agreement with a Neoforma Competitor for the on-line listing of Medical Products"
         ],
-        "explanation": "Sections 2.10 and 3.8 bar each party from contracting with the other's named competitors for online listings, and the license provisions grant exclusive rights to listings on an exclusive basis even as to the granting party."
+        "explanation": "Section 2.10 bars VerticalNet from contracting with Neoforma Competitors, and Sections 2.1 through 2.3 and 3.2 require listings to be provided on an exclusive basis."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "The contract sets commission and fee payment structures but imposes no minimum order size, purchase amount, or unit volume that either party must buy from the other."
+        "explanation": "The contract contains no minimum purchase, order size, or volume obligation on either party, only fees, commissions, and promotional payments."
       },
       "ip_ownership_assignment": {
         "present": false,
         "quotes": [],
-        "explanation": "Sections 9.5 and 9.6 state that each party's Intellectual Property remains its sole property and grant only licenses, with no provision transferring ownership of IP created by one party to the other."
+        "explanation": "Sections 9.5 and 9.6 confirm each party retains ownership of its own Intellectual Property and only grant limited licenses, with no assignment of created IP to the counterparty."
       },
       "non_compete": {
         "present": true,
         "quotes": [
-          "VerticalNet shall not use its Site located at www.meddeals.com to conduct online auctions of Medical Products."
+          "During the Term, VerticalNet shall not use its Site located at www.meddeals.com to conduct online auctions of Medical Products."
         ],
-        "explanation": "Section 2.11 restricts VerticalNet from conducting online auctions of Medical Products on its meddeals.com site during the Term, limiting its participation in that business sector."
+        "explanation": "Section 2.11 restricts VerticalNet from conducting online auctions of Medical Products through a specified site during the Term, which limits its ability to operate in that sector."
       }
     },
-    "tokens_in": 34905,
-    "tokens_out": 2091,
+    "tokens_in": 35046,
+    "tokens_out": 2314,
     "error": null
   },
   {
@@ -141,43 +137,43 @@
       "uncapped_liability": {
         "present": true,
         "quotes": [
-          "EXCEPT WITH RESPECT TO CONTRACTOR'S OBLIGATIONS PURSUANT TO PARAGRAPH 9 HEREOF"
+          "EXCEPT WITH RESPECT TO CONTRACTOR'S OBLIGATIONS PURSUANT TO PARAGRAPH 9 HEREOF, CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR FOR THE PERFORMANCE OF SUCH SERVICES."
         ],
-        "explanation": "Contractor's liability cap in Section 7(a) expressly excludes its obligations under Paragraph 9, which covers taxes and the independent contractor relationship, so those obligations are uncapped."
+        "explanation": "Section 7(a) expressly carves Contractor's Paragraph 9 obligations (independent contractor taxes and expenses) out of the liability cap, leaving them unlimited."
       },
       "termination_for_convenience": {
         "present": true,
         "quotes": [
-          "either party may terminate this Agreement for any or no reason upon fifteen (15) days advance notice to the other"
+          "At any time that there is no uncompleted Statement of Work outstanding, either party may terminate this Agreement for any or no reason upon fifteen (15) days advance notice to the other."
         ],
-        "explanation": "Section 6(a) allows either party to terminate for any or no reason on fifteen days' notice when no Statement of Work is outstanding."
+        "explanation": "Section 6(a) allows either party to terminate the Agreement for any or no reason on fifteen days' notice when no Statement of Work is outstanding."
       },
       "exclusivity": {
         "present": false,
         "quotes": [],
-        "explanation": "Section 4(b) expressly allows Contractor to serve other clients, and no provision requires exclusive dealing or bars either party from working with third parties."
+        "explanation": "The contract expressly permits Contractor to serve other clients and imposes no exclusive dealing commitment on either party."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement sets compensation on a time and materials basis and imposes no minimum order size, amount, or purchase obligation per period."
+        "explanation": "Compensation is on a time-and-materials basis with no minimum purchase amount or volume required from Company."
       },
       "ip_ownership_assignment": {
         "present": true,
         "quotes": [
-          "are the property of Company to the extent that such Works were created by Contractor for Company",
+          "are the property of Company to the extent that such Works were created by Contractor for Company over a time period for which Company has been invoiced and said invoice has been paid.",
           "Contractor shall provide to Company, and hereby assigns to Company, all right, title and interest to any Works in progress."
         ],
-        "explanation": "Section 4(a) makes the Works the property of Company, and Section 6(b) includes a present assignment of Works in progress to Company."
+        "explanation": "Section 4(a) makes the Works Company's property once invoiced and paid, and Section 6(b) includes a present assignment of Works in progress to Company."
       },
       "non_compete": {
         "present": false,
         "quotes": [],
-        "explanation": "The only restriction is a non-solicitation of employees in Section 13, which does not prevent either party from competing or operating in any market or geography."
+        "explanation": "The contract contains only a non-solicitation of employees covenant and no restriction on either party competing or operating in any business, sector, or geography."
       }
     },
-    "tokens_in": 7839,
-    "tokens_out": 1559,
+    "tokens_in": 7980,
+    "tokens_out": 1714,
     "error": null
   },
   {
@@ -188,14 +184,14 @@
         "quotes": [
           "EXCEPT IN THE CASE OF (a) ANY BREACH OF SECTION 10 (CONFIDENTIALITY), (b) THE PARTIES' OBLIGATIONS UNDER SECTION 12 (INDEMNIFICATION)"
         ],
-        "explanation": "Section 13.1 carves breaches of the confidentiality section and the indemnification obligations out of the liability limitations, leaving them uncapped."
+        "explanation": "Section 13.1 expressly carves breaches of the confidentiality section, indemnification obligations, and gross negligence or willful misconduct out of the limitation of liability."
       },
       "termination_for_convenience": {
         "present": true,
         "quotes": [
           "ENERGOUS may, at any time after the third anniversary of the Effective Date, terminate this Agreement with or without cause upon not less than one hundred and eighty (180) days prior written notice to DIALOG."
         ],
-        "explanation": "Section 15.2(b)(iii) lets ENERGOUS terminate without cause on 180 days' notice after the third anniversary of the Effective Date."
+        "explanation": "ENERGOUS may terminate without cause after the third anniversary on 180 days' written notice."
       },
       "exclusivity": {
         "present": true,
@@ -203,174 +199,168 @@
           "ENERGOUS will not, and will not enable any Semiconductor Supplier, to manufacture, have manufactured, offer for sale, sell, import or export the Products or Product Die in commercial volumes",
           "DIALOG agrees that it and its Affiliates will not, without ENERGOUS' written approval, intentionally sell, distribute or work with any third party to develop products incorporating any Uncoupled Power Transfer Technology other than Licensed Products"
         ],
-        "explanation": "Section 2.5(a) restricts ENERGOUS from supplying Products to Semiconductor Suppliers, and Section 8.2(a) restricts DIALOG from working with third parties on competing Uncoupled Power Transfer Technology products."
+        "explanation": "ENERGOUS is restricted from supplying Products to third-party Semiconductor Suppliers, and DIALOG is restricted from working with third parties on competing Uncoupled Power Transfer Technology products."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "No provision requires either party to purchase a minimum volume or amount; the Net Sales figures in Section 15.2(c)(ii) are only termination thresholds for DIALOG."
+        "explanation": "The contract contains sales-based termination thresholds for DIALOG but no obligation for either party to purchase a minimum quantity or amount from the counterparty."
       },
       "ip_ownership_assignment": {
         "present": true,
         "quotes": [
-          "then all right, title and interest in the Tooling will automatically transfer to ENERGOUS subject to any Third Party IP"
+          "then all right, title and interest in the Tooling will automatically transfer to ENERGOUS"
         ],
-        "explanation": "Section 3.3 automatically transfers DIALOG's Tooling to ENERGOUS upon termination of DIALOG's manufacturing rights, and Section 1.23 vests Product IP, including Inventions, in ENERGOUS."
+        "explanation": "Upon termination of DIALOG's manufacturing rights, Tooling that DIALOG procured or generated automatically transfers to ENERGOUS."
       },
       "non_compete": {
         "present": true,
         "quotes": [
           "DIALOG agrees that it and its Affiliates will not, without ENERGOUS' written approval, intentionally sell, distribute or work with any third party to develop products incorporating any Uncoupled Power Transfer Technology other than Licensed Products"
         ],
-        "explanation": "Section 8.2(a) bars DIALOG and its Affiliates from selling or developing competing products using Uncoupled Power Transfer Technology until the Agreement expires or terminates."
+        "explanation": "During the Term, DIALOG and its Affiliates are barred from selling or developing competing Uncoupled Power Transfer Technology products outside the Licensed Products."
       }
     },
-    "tokens_in": 28412,
-    "tokens_out": 2198,
+    "tokens_in": 28553,
+    "tokens_out": 2558,
     "error": null
   },
   {
     "contract": "EbixInc_20010515_10-Q_EX-10.3_4049767_EX-10.3_Co-Branding Agreement.pdf",
     "result": {
       "uncapped_liability": {
-        "present": true,
-        "quotes": [
-          "eBix will defend, indemnify and hold About, its officers, directors, agents, employees and consultants (collectively the \"About Indemnified Parties\") harmless from and against any third party claims against About for all liabilities, claims, actions, damages, losses, settlements, and costs"
-        ],
-        "explanation": "The indemnification obligations in Sections 11.1 and 11.2 for breach of warranties, representations, or covenants carry no monetary cap, and Section 14.1 only excludes indirect and consequential damages."
+        "present": false,
+        "quotes": [],
+        "explanation": "Section 14.1 excludes indirect and consequential damages but does not state that any party's liability is unlimited or carve any breach out of a limitation."
       },
       "termination_for_convenience": {
         "present": true,
         "quotes": [
           "eBix may terminate this Agreement, [**] upon [**] to About; provided, however, that the termination is no earlier than [**] of the Effective Date of this Agreement."
         ],
-        "explanation": "Section 13.1 lets ebix terminate the Agreement on notice to About after a redacted waiting period, without any stated cause."
+        "explanation": "Section 13.1 lets eBix terminate the Agreement on notice to About after a waiting period, though the specific notice and timing terms are redacted."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
           "ebix shall be the exclusive integrated online insurance provider in the Channels and Guide Sites listed in Section 3.1"
         ],
-        "explanation": "Section 3.3 makes ebix the exclusive integrated online insurance provider in the specified channels and guide sites during the Term."
+        "explanation": "Section 3.3 makes ebix the exclusive integrated online insurance provider in the listed Channels and Guide Sites during the Term."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "The impression and filled-application obligations run from About to ebix as efforts or deliveries, and the payment amounts are redacted, so no clear minimum purchase obligation by one party from the other is stated."
+        "explanation": "The contract's impression and fee obligations are either delivery obligations owed by About or redacted payment amounts, with no clear minimum purchase obligation for ebix."
       },
       "ip_ownership_assignment": {
-        "present": false,
-        "quotes": [],
-        "explanation": "Sections 9.1, 9.2 and the general ownership clause keep each party's data and IP with the party that supplied or developed it, with only aggregated customer data jointly owned, and no assignment to the counterparty is stated."
+        "present": true,
+        "quotes": [
+          "which aggregated form shall be jointly owned by ebix and About."
+        ],
+        "explanation": "Section 9.1 provides that aggregated About Customer Data shall be jointly owned by ebix and About, and ebix owns About Customer data generated on the Insurance Center."
       },
       "non_compete": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement contains no restriction on either party competing with the other in any business, geography, or technology sector."
+        "explanation": "The contract contains no restriction on either party competing with the other or operating in a particular business, geography, or sector."
       }
     },
-    "tokens_in": 14371,
-    "tokens_out": 1921,
+    "tokens_in": 14512,
+    "tokens_out": 1871,
     "error": null
   },
   {
     "contract": "PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.pdf",
     "result": {
       "uncapped_liability": {
-        "present": true,
-        "quotes": [
-          "PAPA JOHN'S shall indemnify, defend and hold harmless CELEBRITY, ABG and its current and future parents",
-          "IN NO EVENT SHALL ABG'S, AUTHENTIC BRANDS GROUP LLC'S, AND CELEBRITY'S TOTAL LIABILITY UNDER THIS AGREEMENT EXCEED THE AMOUNTS ACTUALLY RECEIVED BY ABG"
-        ],
-        "explanation": "The liability cap in Section 8.G protects only ABG, Authentic Brands Group and CELEBRITY, while PAPA JOHN'S indemnification obligations in Section 8.B carry no cap."
+        "present": false,
+        "quotes": [],
+        "explanation": "The only limitation of liability in Section 8.G caps ABG, Authentic Brands Group, and CELEBRITY, and no clause explicitly makes any party's liability unlimited or carves a breach out of the cap."
       },
       "termination_for_convenience": {
         "present": false,
         "quotes": [],
-        "explanation": "Both parties' termination rights in Section 7 are tied to specified breaches, misconduct, or events rather than being exercisable without cause."
+        "explanation": "Both parties' termination rights in Section 7 are tied to enumerated breaches or events rather than a right to terminate without cause on notice."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
-          "ABG shall be prohibited from granting any rights for CELEBRITY identical or similar to the rights granted to PAPA JOHN'S hereunder to any entity other than PAPA JOHN'S"
+          "ABG shall be prohibited from granting any rights for CELEBRITY identical or similar to the rights granted to PAPA JOHN'S hereunder to any entity other than PAPA JOHN'S for the purpose of directly promoting, advertising, making an appearance on behalf of, or endorsing Competitive Products"
         ],
-        "explanation": "ABG is barred from licensing CELEBRITY's rights to any other entity for Competitive Products during the Term and for one year thereafter."
+        "explanation": "ABG is barred during the Term and one year after from licensing CELEBRITY's rights for Competitive Products to any entity other than PAPA JOHN'S."
       },
       "minimum_commitment": {
         "present": true,
         "quotes": [
           "PAPA JOHN'S shall pay ABG a cash payment of: One Million Two Hundred Fifty Thousand U.S. Dollars (USD$1,250,000) for Contract Year 1"
         ],
-        "explanation": "PAPA JOHN'S must pay fixed Cash Payments to ABG in each Contract Year, which function as a minimum purchase amount per period."
+        "explanation": "PAPA JOHN'S must pay fixed minimum Cash Payments to ABG in each Contract Year of the Term, escalating from $1,250,000 to $1,500,000."
       },
       "ip_ownership_assignment": {
         "present": true,
         "quotes": [
-          "will be deemed a \"work made for hire\" under the provisions of the United States Copyright Act",
+          "will be deemed a \"work made for hire\" under the provisions of the United States Copyright Act (17 U.S.C. Sec. 101) and will be owned by PAPA JOHN'S for all purposes",
           "all right, title, and interest in such Materials is hereby assigned to Papa John's"
         ],
-        "explanation": "Materials resulting from CELEBRITY's services are deemed works made for hire owned by PAPA JOHN'S and, failing that, are assigned to PAPA JOHN'S."
+        "explanation": "Results of ABG's and CELEBRITY's Services, including Materials, are deemed works made for hire owned by PAPA JOHN'S, with any non-qualifying Materials assigned to PAPA JOHN'S."
       },
       "non_compete": {
         "present": true,
         "quotes": [
           "ABG shall be prohibited from granting any rights for CELEBRITY identical or similar to the rights granted to PAPA JOHN'S hereunder to any entity other than PAPA JOHN'S for the purpose of directly promoting, advertising, making an appearance on behalf of, or endorsing Competitive Products"
         ],
-        "explanation": "ABG is prohibited from having CELEBRITY promote or endorse Competitive Products for others during the Term and for one year afterward."
+        "explanation": "ABG is restricted from endorsing or licensing CELEBRITY to competitors in the pizza sector during the Term and for one year afterward."
       }
     },
-    "tokens_in": 25217,
-    "tokens_out": 2859,
+    "tokens_in": 25358,
+    "tokens_out": 2692,
     "error": null
   },
   {
     "contract": "ClickstreamCorp_20200330_1-A_EX1A-6 MAT CTRCT_12089935_EX1A-6 MAT CTRCT_Development Agreement.pdf",
     "result": {
       "uncapped_liability": {
-        "present": true,
-        "quotes": [
-          "The Developer shall indemnify and hold harmless the Client",
-          "the Developer's breach of any of its obligations, agreements, or duties under this Agreement"
-        ],
-        "explanation": "The Agreement contains no limitation of liability, and the Developer's indemnity for its breaches of the Agreement is not subject to any cap."
+        "present": false,
+        "quotes": [],
+        "explanation": "The contract contains no provision stating that any party's liability is unlimited or excluding any breach from a limitation of liability."
       },
       "termination_for_convenience": {
         "present": true,
         "quotes": [
           "Client has the unilateral right to cancel this agreement at any time within a 7-day notice period."
         ],
-        "explanation": "Section 4(a)(2) lets the Client cancel the Agreement at any time on a 7-day notice period without cause."
+        "explanation": "The Client may cancel the Agreement at any time on a 7-day notice period without requiring cause."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
           "The Developer shall not develop, maintain or market a similar platform and will not compete with the Client directly or indirectly worldwide."
         ],
-        "explanation": "Section 7(b)(7) prohibits the Developer from developing, maintaining, or marketing a similar platform for anyone, which operates as a dealing restriction on the Developer."
+        "explanation": "The Developer is prohibited from developing, maintaining, or marketing a similar platform, which restricts its dealings with third parties."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "The Client's payment obligations are fixed installments for development work, not a minimum purchase or order volume from the Developer."
+        "explanation": "The payment obligations are fixed development installments rather than a minimum purchase amount or volume the Client must buy per period."
       },
       "ip_ownership_assignment": {
         "present": true,
         "quotes": [
-          "the exclusive property of the Client unless otherwise specified",
-          "the Developer hereby assigns to the Client all of its right, title, and interest in and to such work"
+          "any all proprietary materials prepared by the Developer under this Agreement shall be considered \"works for hire\" and the exclusive property of the Client unless otherwise specified.",
+          "the Developer hereby assigns to the Client all of its right, title, and interest in and to such work."
         ],
-        "explanation": "Section 11 makes work product created by the Developer the Client's exclusive property and assigns to the Client any rights in work not deemed a work for hire."
+        "explanation": "Intellectual property the Developer creates under the Agreement is deemed work for hire, the Client's exclusive property, and is assigned to the Client."
       },
       "non_compete": {
         "present": true,
         "quotes": [
           "will not compete with the Client directly or indirectly worldwide"
         ],
-        "explanation": "Section 7(b)(7) bars the Developer from competing with the Client directly or indirectly anywhere in the world."
+        "explanation": "The Developer is barred from competing with the Client directly or indirectly worldwide."
       }
     },
-    "tokens_in": 11784,
-    "tokens_out": 1716,
+    "tokens_in": 11925,
+    "tokens_out": 1453,
     "error": null
   },
   {
@@ -379,46 +369,47 @@
       "uncapped_liability": {
         "present": true,
         "quotes": [
-          "EXCEPT WITH RESPECT TO EACH PARTY'S INDEMNIFICATION OBLIGATIONS UNDER THIS AGREEMENT, (A) UNDER NO CIRCUMSTANCE AND UNDER NO LEGAL THEORY (TORT, CONTRACT, OR OTHERWISE), SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY FOR ANY LOST PROFITS",
-          "THE MAXIMUM LIABILITY OF EACH PARTY IN ANY WAY RELATED TO THIS AGREEMENT SHALL NOT EXCEED $2,000,000.00"
+          "EXCEPT WITH RESPECT TO EACH PARTY'S INDEMNIFICATION OBLIGATIONS UNDER THIS AGREEMENT"
         ],
-        "explanation": "Section 10.06 carves indemnification obligations out of the $2,000,000 liability cap, so those obligations are uncapped."
+        "explanation": "Section 10.06 expressly excludes each party's indemnification obligations from both the consequential damages waiver and the $2,000,000 liability cap, so those obligations are uncapped."
       },
       "termination_for_convenience": {
         "present": false,
         "quotes": [],
-        "explanation": "Termination is limited to material breach (Section 12.01), insolvency (Section 12.02), and a conditional right tied to unpurchased Second Closing Shares (Section 12.03), with no unilateral termination without cause."
+        "explanation": "Termination is permitted only for uncured material breach, insolvency, or the specific Second Closing Shares condition, not terminable without cause on notice."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
-          "neither XSPA nor any of its affiliates shall, directly or indirectly, sell, offer for sale, market or promote any digital meditation or digital sleep products (other than the Products), including online or in any Store in the Territory",
+          "neither XSPA nor any of its affiliates shall, directly or indirectly, sell, offer for sale, market or promote any digital meditation or digital sleep products (other than the Products)",
           "Calm or its authorized designees shall be the sole suppliers to XSPA of XSPA's requirements for Products, Gifts, Shopping Bags, Uniforms and Inserts"
         ],
-        "explanation": "XSPA is barred from selling competing digital meditation or sleep products during the Term and for six months afterward, and Calm is the sole supplier of XSPA's Product Collateral requirements."
+        "explanation": "XSPA is barred from selling competing digital meditation or sleep products, and Calm is the sole supplier of XSPA's requirements for Product Collateral."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "The contract imposes no minimum order size, purchase amount, or unit volume that either party must buy from the other."
+        "explanation": "The contract imposes no minimum purchase amount or volume on either party; its obligations concern marketing efforts and revenue sharing."
       },
       "ip_ownership_assignment": {
         "present": true,
         "quotes": [
-          "If any Product Collateral IP (or any aspect thereof) are not designed and/or created by Calm, such Product Collateral IP (or aspect thereof) shall be deemed \"works made for hire\" for Calm within the meaning of the U.S. Copyright Law and/or other applicable comparable laws or, if they do not so qualify, all ownership rights thereto shall be, and are hereby, assigned to Calm."
+          "shall be, as between the Parties, the sole and exclusive property of Calm",
+          "all ownership rights thereto shall be, and are hereby, assigned to Calm"
         ],
-        "explanation": "Section 9.07 makes Product Collateral IP the sole property of Calm and assigns to Calm any such IP not created by Calm."
+        "explanation": "Section 9.07 makes Product Collateral IP the exclusive property of Calm, with non-Calm-created items deemed works made for hire or assigned to Calm."
       },
       "non_compete": {
         "present": true,
         "quotes": [
+          "neither XSPA nor any of its affiliates shall, directly or indirectly, sell, offer for sale, market or promote any digital meditation or digital sleep products (other than the Products)",
           "neither Calm nor any of its affiliates shall, directly or indirectly, sell, offer for sale, market or promote any digital meditation or digital sleep products in any retail location located in an airport other than in collaboration with XSPA"
         ],
-        "explanation": "Section 3.02 restricts Calm and its affiliates from selling or promoting digital meditation or sleep products in airport retail locations outside collaboration with XSPA during the Term and for six months afterward."
+        "explanation": "Both parties are restricted from selling digital meditation or sleep products in certain business areas during the term and for six months afterward, with Section 3.03 adding a right of first refusal for stores outside the Territory."
       }
     },
-    "tokens_in": 18236,
-    "tokens_out": 2232,
+    "tokens_in": 18377,
+    "tokens_out": 2035,
     "error": null
   },
   {
@@ -427,91 +418,87 @@
       "uncapped_liability": {
         "present": true,
         "quotes": [
-          "EXCEPT UNDER SECTION 13(c) and (d), IN NO EVENT WILL EITHER PARTY BE LIABLE TO THE OTHER FOR ANY SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES",
-          "THE LIABILITY OF EXCITE FOR DAMAGES OR ALLEGED DAMAGES HEREUNDER, WHETHER IN CONTRACT, TORT OR ANY OTHER LEGAL THEORY, IS LIMITED TO, AND WILL NOT EXCEED, THE AMOUNTS ACTUALLY PAID BY SPONSOR TO EXCITE HEREUNDER."
+          "EXCEPT UNDER SECTION 13(c) and (d)"
         ],
-        "explanation": "Sponsor's indemnity under Section 13(d) is carved out of the consequential damages waiver, and only Excite's aggregate liability is capped, leaving Sponsor's liability uncapped."
+        "explanation": "Section 14 excludes the indemnification obligations in Sections 13(c) and (d) from the limitation of liability, and only Excite's liability is expressly capped, so Sponsor's indemnity exposure is not limited."
       },
       "termination_for_convenience": {
         "present": false,
         "quotes": [],
-        "explanation": "Termination is permitted only for uncured material breach or specified service failures, not for convenience on notice alone."
+        "explanation": "Termination is permitted only for uncured material breach, repeated service failures, or failure to meet quality criteria, not without cause."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
-          "Sponsor will be the exclusive retail music store sponsor of the Excite Site and the Excite Broadcast Pages.",
-          "Excite will not permit the display of advertising banners, promotional buttons, promotional links or other promotional materials for any retail sale of Music Products on the Excite Site, except those Music Products offered by Sponsor, nor advertising by any other Retail Music Store."
+          "Sponsor will be the exclusive retail music store sponsor of the Excite Site and the Excite Broadcast Pages."
         ],
-        "explanation": "Excite must not display advertising for retail music sales or advertising by other Retail Music Stores on the Excite Site, making Sponsor the exclusive retail music sponsor."
+        "explanation": "Excite must not permit advertising for retail sale of Music Products by anyone other than Sponsor, and Sponsor is the exclusive retail music store sponsor during the term."
       },
       "minimum_commitment": {
-        "present": false,
-        "quotes": [],
-        "explanation": "Sponsor's payments are sponsorship and revenue-share fees rather than a minimum purchase volume or quantity of goods or services from Excite."
+        "present": true,
+        "quotes": [
+          "Sponsor will pay Excite [****] per year as compensation for being the exclusive online retail music store sponsor of the Excite Site."
+        ],
+        "explanation": "Sponsor must pay a fixed annual sponsorship fee for the exclusive sponsorship, which is a minimum payment obligation per time period."
       },
       "ip_ownership_assignment": {
         "present": false,
         "quotes": [],
-        "explanation": "Each party retains ownership of its own content, site, and trademarks, and no IP created by one party is assigned to the other."
+        "explanation": "Each party retains ownership of its own content, site, and trademarks, and user data ownership is allocated without assigning one party's created IP to the other."
       },
       "non_compete": {
         "present": false,
         "quotes": [],
-        "explanation": "The contract restricts Excite's advertising of rival retail music stores but does not prohibit either party from competing in any business, geography, or technology sector."
+        "explanation": "The contract restricts Excite from advertising other retail music stores on the Excite Site, which is captured under exclusivity, and imposes no restriction on either party competing outside that arrangement."
       }
     },
-    "tokens_in": 14220,
-    "tokens_out": 2514,
+    "tokens_in": 14361,
+    "tokens_out": 2568,
     "error": null
   },
   {
     "contract": "EtonPharmaceuticalsInc_20191114_10-Q_EX-10.1_11893941_EX-10.1_Development Agreement.pdf",
     "result": {
       "uncapped_liability": {
-        "present": true,
-        "quotes": [
-          "Aucta shall indemnify, defend and hold ETON and its owners, officers, directors, Affiliates, and employees (collectively, \"ETON Indemnified Parties\") harmless from and against any and all Losses"
-        ],
-        "explanation": "The indemnification obligations in Section 13.1 (and the parallel Section 13.2) carry no monetary cap, and Section 14.1 only excludes indirect and consequential damages."
+        "present": false,
+        "quotes": [],
+        "explanation": "Section 14.1 excludes indirect and consequential damages but does not state that any party's liability is unlimited or carve any breach out of a limitation."
       },
       "termination_for_convenience": {
         "present": true,
         "quotes": [
           "ETON has the right to terminate this Agreement after approval of the Dossier or marketing application for the Product (or added new product), at its sole discretion, upon providing one hundred eighty (180) days' written notice to Aucta."
         ],
-        "explanation": "Section 11.4(b) lets ETON terminate at its sole discretion on 180 days' written notice after approval, without cause."
+        "explanation": "ETON may terminate the Agreement at its sole discretion on 180 days' written notice after Dossier approval, without needing cause."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
           "an exclusive (even as to and against Aucta in the Territory) right and license"
         ],
-        "explanation": "Section 2.1 grants ETON an exclusive license in the Territory that binds even Aucta, and Section 3.3 bars Aucta from selling products under ETON's NDC numbers."
+        "explanation": "The license to ETON is exclusive in the Territory, even as against Aucta, which bars Aucta from marketing or licensing the Products there."
       },
       "minimum_commitment": {
         "present": true,
         "quotes": [
-          "the minimum royalty payment shall be paid"
+          "the minimum royalty payment shall be paid if the inability or limitation of sales by ETON is directly and solely due to ETON's gross negligence or willful misconduct"
         ],
-        "explanation": "Sections 6.3.2, 6.3.3, and 15.2 refer to an annual minimum royalty that ETON must pay regardless of actual sales, although the amount is redacted."
+        "explanation": "ETON must pay an annual minimum royalty under Section 6.3.2, which is a minimum amount it owes Aucta per period, though the operative terms of that section are redacted."
       },
       "ip_ownership_assignment": {
-        "present": true,
-        "quotes": [
-          "ETON shall transfer all rights, licenses within thirty (30) days of termination."
-        ],
-        "explanation": "Under Section 11.5.2(d), if Aucta terminates for ETON's breach, ETON must transfer its rights and licenses to Aucta, though the provision does not clearly identify the IP created by ETON."
+        "present": false,
+        "quotes": [],
+        "explanation": "Section 2.1 states that Aucta remains the owner of the Products, Dossiers and Aucta Background Intellectual Property, and no IP created by one party is assigned to the other."
       },
       "non_compete": {
         "present": true,
         "quotes": [
-          "Aucta shall not research, develop, manufacture, file, sell, market, or distribute more than two products containing the active ingredient Lamotrigine"
+          "During the Term of this Agreement, and for a period of two (2) years thereafter, Aucta shall not research, develop, manufacture, file, sell, market, or distribute more than two products containing the active ingredient Lamotrigine"
         ],
         "explanation": "Section 3.5 restricts Aucta from developing or selling more than two Lamotrigine products during the Term and for two years afterward."
       }
     },
-    "tokens_in": 23078,
+    "tokens_in": 23219,
     "tokens_out": 2558,
     "error": null
   },
@@ -521,135 +508,130 @@
       "uncapped_liability": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement contains no liability provisions, so no party's liability is stated to be uncapped."
+        "explanation": "The contract contains no provision stating that any party's liability is unlimited or excluding any breach from a limitation of liability."
       },
       "termination_for_convenience": {
         "present": true,
         "quotes": [
-          "until terminated by Transporter or Shipper upon the following written notice to the other specifying a termination date"
+          "Agreement shall be effective month to month, until terminated by Transporter or Shipper upon the following written notice to the other specifying a termination date",
+          "sixty (60) days for interruptible transportation under Rate Schedule ITS and 180 days for firm transportation under Rate Schedule FTS."
         ],
-        "explanation": "After the ten-year primary term, either party may terminate the month-to-month agreement by written notice of 60 days (interruptible) or 180 days (firm) without any stated cause."
+        "explanation": "After the ten-year primary term, either Transporter or Shipper may terminate the agreement without cause by giving written notice with a 60-day or 180-day waiting period."
       },
       "exclusivity": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement contains no requirement that Shipper deal exclusively with Transporter and no restriction on dealing with third parties."
+        "explanation": "The contract contains no requirement that a party deal exclusively with the counterparty or refrain from dealing with third parties."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "The Min values in Exhibits A and B are pressure and meter measurements, and the agreement sets no minimum volume Shipper must purchase or tender per period."
+        "explanation": "The contract sets only a maximum daily quantity (MDQ) and maximum delivery obligation, with no minimum volume or amount that Shipper must purchase per period."
       },
       "ip_ownership_assignment": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement contains no provision transferring ownership of intellectual property created by either party."
+        "explanation": "The contract contains no provision under which intellectual property created by one party becomes the property of the other."
       },
       "non_compete": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement contains no restriction on either party competing with the other or operating in any geography or sector."
+        "explanation": "The contract contains no restriction on either party competing with the other or operating in any business, sector, or geography."
       }
     },
-    "tokens_in": 8242,
-    "tokens_out": 1220,
+    "tokens_in": 8383,
+    "tokens_out": 1427,
     "error": null
   },
   {
     "contract": "InnerscopeHearingTechnologiesInc_20181109_8-K_EX-10.6_11419704_EX-10.6_Distributor Agreement.pdf",
     "result": {
       "uncapped_liability": {
-        "present": true,
-        "quotes": [
-          "Erchonia shall indemnify, defend and hold Distributor harmless from any claims, demands, liabilities or expenses, including reasonable attorneys' fees, incurred by Distributor as a result of any claim or proceeding against Distributor arising out of or based upon: (i) a claim that the Products infringe upon any U.S. patent, trademark, copyright or other intellectual property rights of any third party",
-          "Distributor shall indemnify, defend and hold Erchonia harmless from any claims, demands, liabilities or expenses, including reasonable attorneys' fees, incurred by Erchonia as a result of any claim or proceeding against Erchonia arising out of or based upon (i) the combination, operation or use of the Products with any hardware, products, programs or data not supplied or approved in writing by Erchonia"
-        ],
-        "explanation": "The indemnification obligations in Section 11 carry no monetary cap, so Erchonia's IP infringement indemnity and Distributor's breach-based indemnity are effectively uncapped."
+        "present": false,
+        "quotes": [],
+        "explanation": "Section 10 limits Erchonia's liability for loss of profit and indirect damages, and the contract contains no provision stating that any liability is unlimited or excluding any breach from a limitation."
       },
       "termination_for_convenience": {
         "present": false,
         "quotes": [],
-        "explanation": "Termination is permitted only for uncured material breach, insolvency or bankruptcy, and there is no right to terminate without cause on notice."
+        "explanation": "Section 6 permits termination only for material breach, insolvency or bankruptcy, and the contract contains no right to terminate without cause."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
           "Erchonia grants Distributor the exclusive, non- transferable right and license to promote, distribute and sell the Products",
-          "Distributor agrees that during the term of this agreement it meet the minimum performance goals set forth in Exhibit C to this agreement. Failure to meet these minimum performance goals for any period, shall, at Erchonia's option (i) be considered a breach of this agreement for which Erchonia shall have all the rights and remedies provided for herein upon a breach of this agreement, including termination of this agreement, or (ii) shall give Erchonia to terminate or limit the exclusivity provisions of this agreement"
+          "Distributor shall not market, sell advertise or promote the sale or use of any product or device which is competitive with or substantially similar to the Products"
         ],
-        "explanation": "Distributor receives the exclusive right to distribute the Products in the Territory and Field of Use, and the agreement contemplates exclusivity provisions that can be limited or terminated."
+        "explanation": "Distributor receives exclusive distribution rights under Section 1(a) and is barred during the term from promoting competing products under Section 3."
       },
       "minimum_commitment": {
         "present": true,
         "quotes": [
           "Erchonia may require reasonable minimum purchasing requirements for each run of private labeled products."
         ],
-        "explanation": "The Schedule A language allows Erchonia to impose minimum purchasing requirements on Distributor for private label product runs, and Exhibit C sets performance goals to be determined later."
+        "explanation": "Schedule A allows Erchonia to require minimum purchasing requirements for private label product runs, though the amounts are not yet set."
       },
       "ip_ownership_assignment": {
         "present": true,
         "quotes": [
-          "Ownership of all applicable copyrights, trade secrets, patents and other intellectual property rights in the Products are and shall at all times remain vested in Erchonia, its licensors or assigns.",
-          "execute any documents necessary or appropriate to assign or confirm that all intellectual property rights in any modification"
+          "shall, upon Erchonia's request and at Erchonia's expense, execute any documents necessary or appropriate to assign or confirm that all intellectual property rights in any modification"
         ],
-        "explanation": "Distributor must assign to Erchonia, on request, intellectual property rights in modifications or improvements related to the Products, in addition to Erchonia owning the Products' IP."
+        "explanation": "Section 8(b) requires Distributor to execute documents assigning to Erchonia intellectual property rights in modifications or improvements to the Products that Distributor creates."
       },
       "non_compete": {
         "present": true,
         "quotes": [
-          "During the term of this agreement, Distributor shall not market, sell advertise or promote the sale or use of any product or device which is competitive with or substantially similar to the Products, without the prior express written consent of Erchonia, nor shall they assist any third party in doing so."
+          "During the term of this agreement, Distributor shall not market, sell advertise or promote the sale or use of any product or device which is competitive with or substantially similar to the Products"
         ],
-        "explanation": "Section 3 bars Distributor during the term from marketing or promoting competing products that are similar to the Products."
+        "explanation": "Section 3 prohibits Distributor from marketing or promoting competing products for the duration of the agreement."
       }
     },
-    "tokens_in": 8085,
-    "tokens_out": 2213,
+    "tokens_in": 8226,
+    "tokens_out": 1841,
     "error": null
   },
   {
     "contract": "MOSSIMOINC_04_14_2000-EX-10.14-ENDORSEMENT AGREEMENT.PDF",
     "result": {
       "uncapped_liability": {
-        "present": true,
-        "quotes": [
-          "Company agrees to protect, indemnify and save harmless Licensor, Duval and their authorized agent, or any of them, from and against any and all expenses, damages, claims, suits, actions, judgments and costs whatsoever, including reasonable attorneys' fees"
-        ],
-        "explanation": "Company's indemnity obligation in Section 15 has no monetary cap, while Licensor's liability is capped in Section 17."
+        "present": false,
+        "quotes": [],
+        "explanation": "Section 17 caps Licensor's liability and no provision explicitly states that any Company liability is unlimited or excluded from a limitation."
       },
       "termination_for_convenience": {
         "present": false,
         "quotes": [],
-        "explanation": "Termination rights are limited to specific events such as breach, bankruptcy, Duval's conduct, or a merger, with no right to terminate without cause."
+        "explanation": "Termination rights are tied to specific events such as uncured default, bankruptcy, Duval's felony or drug conviction, or a merger, not to termination without cause."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
           "Licensor agrees not to grant the right to use the Duval Identification to anyone other than Company in connection with the advertisement and promotion of Products."
         ],
-        "explanation": "Licensor must not license the Duval Identification to anyone other than Company for advertising and promoting the Products."
+        "explanation": "Licensor is prohibited from granting anyone else the right to use the Duval Identification for advertising or promoting Products during the Contract Period."
       },
       "minimum_commitment": {
         "present": true,
         "quotes": [
-          "One-half of the Annual Fee will be due on or before January 1 and July 1 of each Contract Year."
+          "Company shall pay to Licensor the annual fee set forth in the schedule below (the \"Annual Fee\")."
         ],
-        "explanation": "Company must pay a fixed Annual Fee each Contract Year, which functions as a minimum periodic payment commitment."
+        "explanation": "Company must pay a fixed Annual Fee of $850,000 per year to Licensor, which functions as a minimum payment amount per period under the contract."
       },
       "ip_ownership_assignment": {
         "present": true,
         "quotes": [
           "Company agrees to cause such applications and/or trademarks to be assigned and transferred to Licensor forthwith."
         ],
-        "explanation": "Trademark applications or rights Company obtained relating to the Duval Identification must be transferred to Licensor."
+        "explanation": "Company must assign to Licensor any trademark applications or rights it obtained that consist of the Duval Identification or relate to Duval."
       },
       "non_compete": {
         "present": false,
         "quotes": [],
-        "explanation": "Section 12 restricts only use of similar names or marks after termination, not Company's ability to compete or operate in a business sector."
+        "explanation": "Section 12 only restricts Company's use of Duval-like marks after termination and does not restrict Company from competing in a business, sector, or geography."
       }
     },
-    "tokens_in": 8065,
-    "tokens_out": 2280,
+    "tokens_in": 8206,
+    "tokens_out": 1837,
     "error": null
   },
   {
@@ -660,44 +642,44 @@
         "quotes": [
           "other than payments due or accrued under Section 8"
         ],
-        "explanation": "Section 14's liability cap excludes payments due or accrued under Section 8, so those payment obligations are not capped."
+        "explanation": "Section 14's cap on each party's liability expressly excludes payments due or accrued under Section 8, leaving those payment obligations uncapped."
       },
       "termination_for_convenience": {
         "present": false,
         "quotes": [],
-        "explanation": "Section 15(b) permits termination only for uncured material breach or insolvency-related events, not for convenience."
+        "explanation": "Termination under Section 15(b) requires an uncured material breach or insolvency event, and no provision allows termination without cause on notice alone."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
           "MBE shall not enter into any agreement or arrangement with any provider of an online or Internet-based manifest system other than the Company."
         ],
-        "explanation": "Section 3(d)(ii) bars MBE from contracting with any online manifest provider other than the Company, and Section 3(d)(i) restricts the Company's retail manifesting partnerships."
+        "explanation": "MBE is barred from dealing with any other online manifest system provider, and the Company is restricted from certain retail-shipping arrangements under Section 3(d)."
       },
       "minimum_commitment": {
         "present": true,
         "quotes": [
-          "fail to ship at least [***]* packages manifested by the Service in any period of three (3) full months"
+          "MBE and all MBE Centers together fail to ship at least"
         ],
-        "explanation": "Section 3(d)(iii) sets a minimum package volume per three-month period that MBE and its Centers must ship through the Service, with failure allowing the Company to end exclusivity."
+        "explanation": "Section 3(d)(iii) and (iv) set package-volume requirements that MBE and its centers must meet through the Service, failing which the Company may terminate exclusivity."
       },
       "ip_ownership_assignment": {
         "present": true,
         "quotes": [
           "The Company is, and shall be, the sole owner of all inventions, discoveries and/or enhancements relating to the Service and the Specifications"
         ],
-        "explanation": "Section 7(a) makes the Company the sole owner of all inventions, discoveries, and enhancements relating to the Service and Specifications."
+        "explanation": "Section 7(a) vests ownership of all inventions, discoveries, and enhancements relating to the Service and Specifications in the Company."
       },
       "non_compete": {
         "present": true,
         "quotes": [
-          "The Company shall not enter into any agreement or arrangement, including without limitation any sale, license, service agreement, co-branding agreement"
+          "The Company shall not enter into any agreement or arrangement, including without limitation any sale, license, service agreement, co-branding agreement, co-marketing agreement or linking agreement with any provider of manifesting or shipping services through non-carrier retail shipping locations"
         ],
-        "explanation": "Section 3(d)(i) restricts the Company from contracting with providers of manifesting or shipping services through non-carrier retail shipping locations, limiting its participation in that business sector."
+        "explanation": "Section 3(d)(i) restricts the Company from dealing with providers of manifesting or shipping services through non-carrier retail locations, limiting its participation in that sector."
       }
     },
-    "tokens_in": 27024,
-    "tokens_out": 2654,
+    "tokens_in": 27165,
+    "tokens_out": 2083,
     "error": null
   },
   {
@@ -706,40 +688,41 @@
       "uncapped_liability": {
         "present": false,
         "quotes": [],
-        "explanation": "The contract contains no liability cap or liability provisions, so no liability is expressly uncapped."
+        "explanation": "The contract contains no limitation-of-liability clause and no provision that expressly makes any party's liability unlimited or excludes any breach from a cap."
       },
       "termination_for_convenience": {
         "present": true,
         "quotes": [
-          "The Company may in its discretion and at its option terminate this Agreement at any time after the Minimum Period upon five days prior written notice to Maimon."
+          "The Company may in its discretion and at its option terminate this Agreement at any time after the Minimum Period upon five days prior written notice to Maimon.",
+          "Maimon shall have the right to resign at any time upon 30 days prior written notice."
         ],
-        "explanation": "After the Minimum Period, the Company may terminate without cause on five days' written notice."
+        "explanation": "After the Minimum Period the Company may terminate without cause on five days' notice, and Maimon may resign at any time on 30 days' notice."
       },
       "exclusivity": {
         "present": false,
         "quotes": [],
-        "explanation": "Section 8 restricts Maimon from accepting conflicting work during the term, but it is a conflicts-of-interest restriction rather than an exclusive dealing commitment with the Company."
+        "explanation": "The contract contains no requirement to deal exclusively with the Company or to procure goods or services solely from it, and no bar on Maimon working with third parties beyond the non-compete and conflicts language."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "The Minimum Period is a minimum term of service and the Company's monthly fee is compensation for services, not a minimum purchase or volume commitment."
+        "explanation": "The only minimum is a 12-month minimum term for the engagement, which is not a minimum purchase or spend obligation by either party."
       },
       "ip_ownership_assignment": {
         "present": false,
         "quotes": [],
-        "explanation": "Section 7 states only that existing written Confidential Information remains the Company's property and does not assign IP created by Maimon."
+        "explanation": "Section 7 states that existing written Confidential Information remains the Company's property, but it does not assign to the Company any intellectual property created by Maimon."
       },
       "non_compete": {
         "present": true,
         "quotes": [
           "During the term of this Agreement and for a period of two (2) years after expiration or termination for any reason of this Agreement, Maimon agrees not to: (a) compete with the business of the Company"
         ],
-        "explanation": "Maimon is barred from competing with the Company's business during the term and for two years after the Agreement ends."
+        "explanation": "Section 8 bars Maimon from competing with the Company's business during the term and for two years after the Agreement ends."
       }
     },
-    "tokens_in": 3259,
-    "tokens_out": 1401,
+    "tokens_in": 3400,
+    "tokens_out": 1451,
     "error": null
   },
   {
@@ -748,45 +731,42 @@
       "uncapped_liability": {
         "present": true,
         "quotes": [
-          "EXCEPT FOR BREACHES OF SECTION 11 OR BREACHES OF ANY LICENSE GRANT SET FORTH IN THIS AGREEMENT",
-          "THE LIMITATIONS ON LIABILITY FOR DAMAGES SET FORTH IN THIS AGREEMENT SHALL BE INAPPLICABLE TO EACH PARTY'S CONTRACTUAL OBLIGATION TO INDEMNIFY THE OTHER PARTY AS SET FORTH IN SECTIONS 2.6 AND 13."
+          "EXCEPT FOR BREACHES OF SECTION 11 OR BREACHES OF ANY LICENSE GRANT SET FORTH IN THIS AGREEMENT"
         ],
-        "explanation": "Section 14 removes the consequential damages exclusion for breaches of confidentiality (Section 11) and license grants, and makes the indemnification obligations uncapped, with no overall liability cap stated."
+        "explanation": "Section 14 excludes breaches of the confidentiality provision (Section 11) and license grants from the consequential damages exclusion, so those breaches are not subject to that limitation."
       },
       "termination_for_convenience": {
         "present": false,
         "quotes": [],
-        "explanation": "The contract allows termination only for uncured material breach or a shortfall under Section 3.1, and non-renewal at the end of the Initial Term, not termination without cause during the term."
+        "explanation": "Section 10 permits termination only for uncured material breach or for eDiets' election after an uncured advertising under-delivery, and otherwise provides only for non-renewal at the end of a term."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
-          "eDiets will be the exclusive third party provider of content and interactive tools for diets and diet counseling to Women.com within the Diet Center",
-          "eDiets will not buy, sell, display or distribute advertising from"
+          "eDiets will be the exclusive third party provider of content and interactive tools for diets and diet counseling to Women.com within the Diet Center"
         ],
-        "explanation": "Section 5 makes eDiets the exclusive third-party diet content provider for Women.com and restricts both parties from advertising or promoting designated competitors during the Term."
+        "explanation": "Section 5.1 makes eDiets the exclusive third-party diet content provider for the Diet Center and restricts Women.com from promoting Competitive Companies there, and Section 5.2 restricts eDiets from advertising Women.com Competitive Companies near the Gateway Page."
       },
       "minimum_commitment": {
         "present": true,
         "quotes": [
-          "eDiets shall purchase from Women.com advertising and promotional inventory in the amounts and at the rates specified in Exhibit B hereto",
-          "eDiets shall pay to Women.com a monthly fee in the amount set forth on Exhibit C"
+          "eDiets shall purchase from Women.com advertising and promotional inventory in the amounts and at the rates specified in Exhibit B hereto"
         ],
-        "explanation": "eDiets must purchase specified advertising inventory under Exhibit B and pay a fixed monthly fee under Exhibit C, with a stated total net cost of $2,000,000 per year."
+        "explanation": "eDiets must purchase a set amount of advertising inventory and pay a fixed monthly fee, with Exhibit C stating a total net cost of $2,000,000 per year."
       },
       "ip_ownership_assignment": {
         "present": false,
         "quotes": [],
-        "explanation": "Section 8 states that eDiets Content and Women.com Content remain the property of their respective creators and that nothing transfers ownership between the parties."
+        "explanation": "Sections 8.1 through 8.5 expressly state that each party retains ownership of its own content, data, and tools, with no transfer of intellectual property to the counterparty."
       },
       "non_compete": {
         "present": false,
         "quotes": [],
-        "explanation": "The contract restricts advertising, promotion, and partnership arrangements with named competitors but does not prohibit either party from operating or competing in the diet or women's portal business."
+        "explanation": "Sections 5.1 and 5.2 restrict promotion of specified competitors on particular pages but do not bar either party from competing or operating in its business sector or geography."
       }
     },
-    "tokens_in": 22098,
-    "tokens_out": 2798,
+    "tokens_in": 22239,
+    "tokens_out": 2476,
     "error": null
   },
   {
@@ -795,81 +775,79 @@
       "uncapped_liability": {
         "present": false,
         "quotes": [],
-        "explanation": "The contract contains no provision setting out liability for breach, so no liability is expressly uncapped."
+        "explanation": "The contract contains no provision stating that any party's liability is unlimited or excluding any breach from a limitation of liability."
       },
       "termination_for_convenience": {
         "present": true,
         "quotes": [
           "The Appointment may be terminated by either party giving the other at least 12 months' notice in writing."
         ],
-        "explanation": "Either party may end the employment without cause by giving 12 months' written notice, and clause 15.2 also lets the Company terminate at its sole discretion with immediate effect."
+        "explanation": "Clause 15.1 allows either party to terminate the employment without cause on 12 months' written notice, and clause 15.2 separately lets the Company terminate at its sole discretion."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
-          "the Executive shall devote the whole of his time, skill and attention during normal business hours",
-          "During the Appointment, the Executive may not accept any employment with or appointment to any office, whether paid or unpaid"
+          "During the Appointment, the Executive may not accept any employment with or appointment to any office, whether paid or unpaid, in relation to anybody, whether corporate or not (other than a Group Company)"
         ],
-        "explanation": "During the Appointment the Executive must devote his whole time to the Company and may not take up other employment or offices, which restricts working with other parties."
+        "explanation": "Clause 12 bars the Executive during the Appointment from accepting employment or office with any outside body other than a Group Company, which is an exclusive-service commitment to the Company."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "There is no minimum order size or minimum purchase amount per period that either party must buy from the other."
+        "explanation": "No provision requires one party to buy a minimum quantity, amount, or number of units from the counterparty per time period."
       },
       "ip_ownership_assignment": {
         "present": true,
         "quotes": [
-          "shall belong to and vest in the Company",
-          "the Executive hereby assigns to the Company his entire right, title and interest in all Intellectual Property Rights"
+          "Any Intellectual Property Rights created by the Executive or arising in the course of his employment or his performing his obligations under this Agreement shall belong to and vest in the Company.",
+          "the Executive hereby assigns to the Company his entire right, title and interest in all Intellectual Property Rights which arise in the course of performing his obligations under this Agreement"
         ],
-        "explanation": "Intellectual Property Rights created in the course of employment vest in the Company and the Executive assigns them to the Company."
+        "explanation": "Clauses 14.2 and 14.3 vest in the Company all IP created by the Executive in the course of employment and assign such rights to it."
       },
       "non_compete": {
         "present": true,
         "quotes": [
-          "be directly or indirectly engaged, employed, interested or concerned in: (i) any Competing Business"
+          "take any steps preparatory to or be directly or indirectly engaged, employed, interested or concerned in: (i) any Competing Business"
         ],
-        "explanation": "Schedule 3 prohibits the Executive from being engaged or interested in any Competing Business during the Restricted Period within the Restricted Territory."
+        "explanation": "Schedule 3 paragraph 1 restricts the Executive for 12 to 18 months after termination from being engaged or interested in any Competing Business within the Restricted Territory."
       }
     },
-    "tokens_in": 21033,
-    "tokens_out": 2017,
+    "tokens_in": 21174,
+    "tokens_out": 1915,
     "error": null
   },
   {
     "contract": "AMERICANPHYSICIANSCAPITALINC_03_31_2003-EX-10.26-AGENCY AGREEMENT.PDF",
     "result": {
       "uncapped_liability": {
-        "present": true,
-        "quotes": [
-          "MICOA shall indemnify and hold Agency harmless against any MICOA act or omission, except to the extent the Agency has caused, compounded, or contributed to such error."
-        ],
-        "explanation": "The mutual indemnification obligations in Section G contain no monetary cap or limitation of liability."
+        "present": false,
+        "quotes": [],
+        "explanation": "The contract contains no explicit statement that any party's liability is unlimited or carves any breach out of a limitation of liability."
       },
       "termination_for_convenience": {
         "present": true,
         "quotes": [
-          "This Agreement shall terminate, subject to any automatic renewal or extension for one year as required by law, upon either party giving at least one hundred twenty (120) days advance written notice to the other"
+          "upon either party giving at least one hundred twenty (120) days advance written notice to the other"
         ],
-        "explanation": "Either party may terminate the agreement without cause by giving 120 days' written notice under Section F.2."
+        "explanation": "Section F.2 lets either party terminate the agreement without cause by giving 120 days' written notice."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
-          "In return for the exclusive appointment of Agency by MICOA to sell its professional liability products listed on the attached Commission Schedule in Nevada, Agency agrees not to sell any competing professional liability products in Nevada, without the written consent of MICOA."
+          "In return for the exclusive appointment of Agency by MICOA to sell its professional liability products listed on the",
+          "Agency agrees not to sell any competing professional liability products in Nevada, without the written consent of MICOA."
         ],
-        "explanation": "Agency is exclusively appointed by MICOA and agrees not to sell competing professional liability products in Nevada without MICOA's consent."
+        "explanation": "Section A.5 requires the Agency to refrain from selling competing professional liability products in Nevada in exchange for MICOA's exclusive appointment."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement sets commission rates and imposes no minimum order size, premium amount, or purchase obligation on either party."
+        "explanation": "The contract sets commission rates but imposes no minimum purchase, order size, or premium volume that either party must meet."
       },
       "ip_ownership_assignment": {
         "present": false,
         "quotes": [],
-        "explanation": "The only property provision concerns supplies and forms furnished by MICOA remaining MICOA's property, not IP created by one party being assigned to the other."
+        "explanation": "No intellectual property created by one party is assigned to the other; MICOA's furnished forms and policies remain its own property under Section F.4."
       },
       "non_compete": {
         "present": true,
@@ -877,11 +855,11 @@
           "for a two-year period following the termination date, Agency will not directly or indirectly sell any professional liability insurance to any individuals or entities who were MICOA insureds in Nevada at the time of termination of this Agreement.",
           "SC&W agrees not to serve in a strategic marketing capacity for another insurer in Nevada while it is providing such services for MICOA or for a period of one year thereafter."
         ],
-        "explanation": "Agency is barred for two years after termination from selling professional liability insurance to former MICOA Nevada insureds, and SC&W is barred from serving competing insurers in Nevada during and for one year after its project work."
+        "explanation": "Section D.1 bars the Agency from selling professional liability insurance to former MICOA Nevada insureds for two years after termination, and the Project Memorandum bars SC&W from serving another Nevada insurer in a strategic marketing role during and for one year after its work for MICOA."
       }
     },
-    "tokens_in": 7407,
-    "tokens_out": 1804,
+    "tokens_in": 7548,
+    "tokens_out": 1718,
     "error": null
   },
   {
@@ -890,82 +868,82 @@
       "uncapped_liability": {
         "present": false,
         "quotes": [],
-        "explanation": "The provided text contains no liability cap or uncapped liability provision, and the Terms and Conditions in Exhibit B are not included."
+        "explanation": "The excerpt contains no provision stating that any party's liability is unlimited or carving any breach out of a limitation of liability."
       },
       "termination_for_convenience": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement sets a fixed term and refers to termination only generally, with no clause allowing either party to terminate without cause on notice."
+        "explanation": "The excerpt sets a fixed Term ending on the Scheduled Expiration Date and contains no right to terminate without cause, though the referenced Exhibit B was not provided."
       },
       "exclusivity": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement grants Sponsor rights without requiring either party to deal exclusively with the other, and it expressly reserves Club's right to sell competing products at the Stadium."
+        "explanation": "The excerpt contains no requirement that either party deal only with the other, and it expressly reserves Club's right to sell competing products at the Stadium."
       },
       "minimum_commitment": {
         "present": true,
         "quotes": [
-          "Sponsor shall pay Club the Annual Fee for each Contract Year of this Agreement in six (6) equal installments"
+          "Sponsor shall pay Club the Annual Fee for each Contract Year of this Agreement in six (6) equal installments, each due on or prior to the 1st of each month between June and November of the applicable Contract Year."
         ],
-        "explanation": "Sponsor must pay fixed Annual Fees for each Contract Year, which is a minimum amount per period that Sponsor must pay Club."
+        "explanation": "Sponsor must pay fixed Annual Fees in each Contract Year, which is a minimum amount payable to Club per period under the agreement."
       },
       "ip_ownership_assignment": {
         "present": false,
         "quotes": [],
-        "explanation": "Club only grants Sponsor a limited license to use Team Marks and Club intellectual property, and no provision assigns IP created by one party to the other."
+        "explanation": "The excerpt grants Sponsor only limited licenses to use Club's Team Marks and designations and contains no assignment of intellectual property to either party."
       },
       "non_compete": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement limits how Sponsor may use Club's rights but does not restrict Sponsor or Club from competing in any business, geography, or sector."
+        "explanation": "The excerpt restricts how Sponsor may use Club rights but does not restrict either party from competing or operating in any business, sector, or geography."
       }
     },
-    "tokens_in": 6580,
-    "tokens_out": 1318,
+    "tokens_in": 6721,
+    "tokens_out": 1753,
     "error": null
   },
   {
     "contract": "WARNERCHILCOTTPLC_12_31_2003-EX-4.36-DEVELOPMENT AGREEMENT.PDF",
     "result": {
       "uncapped_liability": {
-        "present": true,
-        "quotes": [
-          "LEO shall indemnify and hold GALEN and its agents, directors, officers and employees and representatives harmless from and against any and all Losses which they may at any time incur by reason of any Action or Proceeding brought by any Governmental or Regulatory Authority or other third party against GALEN arising out of or resulting from (a) any misrepresentation, breach of warranty or non-fulfilment of or failure to perform any agreement or covenant made by LEO in this Agreement"
-        ],
-        "explanation": "The indemnification obligations for breach, misrepresentation, and negligence contain no monetary cap."
+        "present": false,
+        "quotes": [],
+        "explanation": "The contract does not explicitly state that any party's liability is unlimited or carve any breach out of a limitation of liability."
       },
       "termination_for_convenience": {
         "present": false,
         "quotes": [],
-        "explanation": "Termination is only permitted for material breach, specified events under Article 7.2, or prolonged Force Majeure, not without cause."
+        "explanation": "Termination is permitted only for material breach, specified triggers tied to the Dovonex Agreement or Dovobet Agreement, or prolonged Force Majeure, not without cause."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
-          "LEO has appointed GALEN as its exclusive distributor in the Territory of the Combination Product"
+          "LEO has appointed GALEN as its exclusive distributor in the Territory of the Combination Product",
+          "GALEN will be the exclusive distributor of Dovonex(R) Product in the Territory"
         ],
-        "explanation": "LEO appoints GALEN as exclusive distributor of the Combination Product in the Territory, which is an exclusive dealing commitment."
+        "explanation": "The recitals state that LEO appoints GALEN as exclusive distributor in the Territory for the Combination Product and that GALEN will be exclusive distributor of the Dovonex Product there."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "The contract contains no minimum purchase order size, amount, or unit volume that either party must buy."
+        "explanation": "The contract contains no minimum purchase, order, or volume obligation; the only financial obligations are GALEN's fixed payments for trial costs and the development reimbursement."
       },
       "ip_ownership_assignment": {
         "present": true,
         "quotes": [
-          "if GALEN is then the owner of any patents specifically related to the Combination Product, GALEN shall transfer such ownership to LEO"
+          "GALEN shall transfer such ownership to LEO",
+          "such data shall be transferred to LEO"
         ],
-        "explanation": "Upon termination, GALEN must transfer to LEO its patents specifically related to the Combination Product, along with related data and regulatory filings."
+        "explanation": "Upon termination, GALEN must transfer to LEO any patents specifically related to the Combination Product and any data related to the Combination Product."
       },
       "non_compete": {
         "present": false,
         "quotes": [],
-        "explanation": "The contract does not restrict either party from competing with the other or operating in any geography or business sector."
+        "explanation": "The contract contains no restriction on either party competing with the other or operating in any business, technology, or geography."
       }
     },
-    "tokens_in": 9798,
-    "tokens_out": 1579,
+    "tokens_in": 9939,
+    "tokens_out": 1378,
     "error": null
   },
   {
@@ -974,179 +952,171 @@
       "uncapped_liability": {
         "present": true,
         "quotes": [
-          "Inktomi takes full responsibility for all such Inktomi Taxes, including penalties, interest and other additions thereon and agrees to indemnify, defend and hold Microsoft harmless from any claims, causes of action, costs (including without limitation, reasonable attorneys' fees), penalties, interest charges and other liabilities of any nature whatsoever associated therewith."
+          "EXCEPT FOR [*] CAUSED BY A [*] OF SECTION [*]"
         ],
-        "explanation": "The agreement states no monetary cap on liability, and Inktomi's tax indemnity is an open-ended obligation without any limit."
+        "explanation": "Section 9 carves certain breaches out of the mutual consequential-damages limitation, though the carved-out categories are redacted in this copy."
       },
       "termination_for_convenience": {
         "present": true,
         "quotes": [
           "Inktomi may terminate this Agreement without cause upon one year's prior written notice",
-          "Microsoft may terminate this Agreement at any time without cause upon"
+          "Microsoft may terminate this Agreement at any time without cause upon [*] ([*]) days prior written notice"
         ],
-        "explanation": "Both Inktomi (on one year's notice after the second anniversary of the Launch Date) and Microsoft (on a stated notice period) may terminate without cause."
+        "explanation": "Both Inktomi (on one year's notice) and Microsoft (on a redacted notice period) may terminate without cause under Section 10."
       },
       "exclusivity": {
         "present": false,
         "quotes": [],
-        "explanation": "Section 2.8 expressly permits Inktomi to serve other parties with its software and hosting infrastructure, and nothing requires Microsoft to use Inktomi exclusively."
+        "explanation": "Section 2.8 expressly states that nothing in the Agreement limits Inktomi from providing its software and technology to other parties, so no exclusive dealing commitment appears."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "The payments are tied to services actually provided and Microsoft may terminate or relocate hosting, with no stated minimum purchase volume or quantity per period."
+        "explanation": "The monthly fees in Section 4.1 are payments for services rather than a minimum purchase volume, and Section 4.1(a) caps the number of payments rather than setting a minimum."
       },
       "ip_ownership_assignment": {
         "present": true,
         "quotes": [
-          "Inktomi hereby irrevocably assigns to Microsoft an [*] interest therein."
+          "Inktomi hereby irrevocably assigns to Microsoft an [*] interest therein"
         ],
-        "explanation": "Inktomi assigns a portion of its interest in Usage Data, which it collects in performing the Services, to Microsoft."
+        "explanation": "Section 2.3.2 has Inktomi irrevocably assign to Microsoft an interest in Usage Data, which is to be owned jointly by the parties."
       },
       "non_compete": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement contains no restriction on either party competing with the other or operating in any business, geography, or technology sector."
+        "explanation": "Section 2.8 preserves Inktomi's right to serve other parties, including in search engine applications, and no clause restricts either party from competing."
       }
     },
-    "tokens_in": 26199,
-    "tokens_out": 2683,
+    "tokens_in": 26340,
+    "tokens_out": 1935,
     "error": null
   },
   {
     "contract": "ZtoExpressCaymanInc_20160930_F-1_EX-10.10_9752871_EX-10.10_Transportation Agreement.pdf",
     "result": {
       "uncapped_liability": {
-        "present": true,
-        "quotes": [
-          "Party B shall be responsible for all of Party A's economic loss and relevant liquidated damages arising out of any theft and disposal of stolen goods conducted by Party B's personnel.",
-          "Party B shall be responsible for any damages resulting from severe accidents causing Party A's personnel casualties.",
-          "Party B shall also compensate Party A's other losses."
-        ],
-        "explanation": "Party B's liability for Party A's economic loss, casualty damages, and other losses is stated without any monetary cap."
+        "present": false,
+        "quotes": [],
+        "explanation": "The contract contains no limitation-of-liability clause and no text stating that any party's liability is unlimited or excluded from a cap."
       },
       "termination_for_convenience": {
         "present": false,
         "quotes": [],
-        "explanation": "Party A's termination rights are tied to specific triggers such as vehicle space insufficiency or Party B's non-compliance, not a general right to terminate without cause on notice."
+        "explanation": "Termination rights are tied to specific conditions such as breach, vehicle space insufficiency, or early termination requiring consent, with no general right to terminate on notice without cause."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
           "Without Party A's approval, Party B shall not transfer the carriage of goods to any third party in the designated route."
         ],
-        "explanation": "Party B is prohibited from using third parties for carriage on the designated route without Party A's approval, which restricts Party B from working with other parties."
+        "explanation": "Party B is prohibited from subcontracting carriage of goods on the designated route to third parties without Party A's approval, which restricts Party B from working with other parties on that route."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "Freight is calculated on actual carriage amount and weight with no minimum order size or minimum purchase volume required."
+        "explanation": "The contract sets no minimum order size, volume, or amount that Party A must purchase from Party B in any period."
       },
       "ip_ownership_assignment": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement contains no provisions transferring ownership of intellectual property created by either party."
+        "explanation": "The contract contains no provision under which intellectual property created by either party transfers to the other party."
       },
       "non_compete": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement contains no restriction on either party competing with the other or operating in a particular geography or sector."
+        "explanation": "The contract contains no restriction on either party's ability to compete, operate in a particular geography, or enter a business sector."
       }
     },
-    "tokens_in": 3704,
-    "tokens_out": 1488,
+    "tokens_in": 3845,
+    "tokens_out": 1197,
     "error": null
   },
   {
     "contract": "PROLONGINTERNATIONALCORP_03_23_1998-EX-10.16-SPONSORSHIP AGREEMENT.PDF",
     "result": {
       "uncapped_liability": {
-        "present": true,
-        "quotes": [
-          "Sabco shall indemnify, defend and hold harmless Prolong, its"
-        ],
-        "explanation": "The indemnification obligations in Section 9 contain no cap on the amount of losses, claims, or damages Sabco must cover."
+        "present": false,
+        "quotes": [],
+        "explanation": "The contract contains no provision stating that any party's liability is unlimited or excluding any breach from a limitation of liability; the indemnities in Section 9 do not by themselves qualify."
       },
       "termination_for_convenience": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement has no provision allowing either party to terminate without cause on notice."
+        "explanation": "The contract contains no clause permitting either party to terminate without cause on notice."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
-          "Sabco will not represent or accept as a primary, secondary, or associate sponsor any other"
+          "During the term of this Agreement, Sabco will not represent or accept as a primary, secondary, or associate sponsor any other company reasonably deemed to be competitive with Prolong products."
         ],
-        "explanation": "Section 7 bars Sabco during the term from sponsoring any company reasonably deemed competitive with Prolong products."
+        "explanation": "Section 7 bars Sabco during the term from accepting any competing company as a sponsor, which is an exclusive dealing commitment in Prolong's favor."
       },
       "minimum_commitment": {
         "present": true,
         "quotes": [
-          "paid to Sabco in the following installments"
+          "This sponsorship fee of $ [ * ] shall be paid to Sabco in the following installments"
         ],
-        "explanation": "Section 4 requires Prolong to pay a fixed sponsorship fee in set quarterly installments across each year of the term."
+        "explanation": "Section 4 requires Prolong to pay a fixed sponsorship fee in set quarterly installments over each year of the term, which functions as a minimum periodic payment commitment."
       },
       "ip_ownership_assignment": {
         "present": false,
         "quotes": [],
-        "explanation": "The agreement contains no provision transferring ownership of intellectual property created by either party to the other."
+        "explanation": "The contract contains no provision transferring ownership of intellectual property; Section 3 only grants a use license to drivers' likenesses for endorsement."
       },
       "non_compete": {
         "present": false,
         "quotes": [],
-        "explanation": "Section 7 restricts Sabco's sponsorship relationships with competitors rather than restricting Sabco from competing or operating in a business or geography."
+        "explanation": "Section 7 restricts Sabco's acceptance of competing sponsors during the term, which is better characterized as exclusivity, and no clause restricts a party from competing or operating in a business or geography."
       }
     },
-    "tokens_in": 5558,
-    "tokens_out": 1764,
+    "tokens_in": 5699,
+    "tokens_out": 1533,
     "error": null
   },
   {
     "contract": "SimplicityEsportsGamingCompany_20181130_8-K_EX-10.1_11444071_EX-10.1_Franchise Agreement.pdf",
     "result": {
       "uncapped_liability": {
-        "present": true,
-        "quotes": [
-          "The Franchisee shall indemnify and hold the Franchisor, its affiliates and their respective agents and employees harmless from all claims, actions, suits, damages, costs and expenses in relation to or arising out of the breach of any representations, warranties, covenants and obligations of the Franchisee as set out in this Agreement."
-        ],
-        "explanation": "The Franchisee's indemnity for breach of any representations, warranties, covenants and obligations is not subject to any cap, and the contract contains no limitation of liability clause."
+        "present": false,
+        "quotes": [],
+        "explanation": "The contract contains no provision stating that any party's liability is unlimited or excluding any breach from a limitation of liability."
       },
       "termination_for_convenience": {
         "present": false,
         "quotes": [],
-        "explanation": "Termination is limited to mutual agreement (Section 8.1), specified breach or insolvency events with notice (Sections 8.2 and 8.3), and Section 10.10 bars termination except under Clause 8, so no termination without cause is permitted."
+        "explanation": "Termination is limited to mutual agreement, notice-based termination for listed events such as non-payment or abandonment, and termination for Cause, and Section 10.10 bars termination except under Clause 8."
       },
       "exclusivity": {
         "present": true,
         "quotes": [
-          "the Franchisee shall not enter into any arrangement or agreement with any third parties for establishing or operating any gaming and entertainment centres identical or similar to Smaaash Centres, in the Territory except as otherwise provided in this Agreement",
+          "the Franchisee shall not enter into any arrangement or agreement with any third parties for establishing or operating any gaming and entertainment centres identical or similar to Smaaash Centres, in the Territory",
           "Franchisor shall not grant any further licenses to third parties in the Trademarks for use in connection with Smaaash Centres in the Territory"
         ],
-        "explanation": "Section 3.2 makes the trademark license exclusive in the Territory, barring the Franchisor from licensing the Trademarks to third parties there and barring the Franchisee from working with third parties on similar centres there."
+        "explanation": "Section 3.2 grants Franchisee exclusive rights in the Territory and bars Franchisor from licensing the Trademarks to third parties there and Franchisee from working with third parties on similar centres."
       },
       "minimum_commitment": {
         "present": false,
         "quotes": [],
-        "explanation": "The only numeric obligation is that Franchisee set up at least 6 Smaaash Centres in the first Contract Year, which is a build obligation rather than a minimum purchase from the counterparty."
+        "explanation": "The only numerical obligation is to set up at least six Smaaash Centres, which is a establishment requirement rather than a minimum purchase from the counterparty."
       },
       "ip_ownership_assignment": {
         "present": true,
         "quotes": [
           "Franchisee will be deemed to have so acted as an agent and for the benefit of Franchisor for the limited purpose of obtaining such registrations and assigning them to Franchisor.",
-          "shall be deemed to be solely the property of Franchisor should this Agreement be terminated for any reason."
+          "shall be deemed to be solely the property of Franchisor should this Agreement be terminated for any reason"
         ],
-        "explanation": "Section 6.2 requires any trademark rights Franchisee obtains to be assigned to Franchisor, and Section 6.1(b) makes Franchisee's use of Franchisor Property inure solely to Franchisor on termination."
+        "explanation": "Section 6.2 requires Franchisee to assign any registrations or interests in Franchisor Property to Franchisor, and Section 6.1(b) makes Franchisee's use of that property inure to Franchisor on termination."
       },
       "non_compete": {
         "present": true,
         "quotes": [
-          "the Franchisee shall not enter into any arrangement or agreement with any third parties for establishing or operating any gaming and entertainment centres identical or similar to Smaaash Centres, in the Territory except as otherwise provided in this Agreement"
+          "the Franchisee shall not enter into any arrangement or agreement with any third parties for establishing or operating any gaming and entertainment centres identical or similar to Smaaash Centres, in the Territory"
         ],
-        "explanation": "Section 3.2 prohibits Franchisee from entering arrangements with third parties to operate gaming and entertainment centres similar to Smaaash Centres in the Territory."
+        "explanation": "Section 3.2 restricts Franchisee during the Term from establishing or operating similar gaming and entertainment centres in the Territory with third parties."
       }
     },
-    "tokens_in": 10281,
-    "tokens_out": 2152,
+    "tokens_in": 10422,
+    "tokens_out": 1908,
     "error": null
   }
 ]
