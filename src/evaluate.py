@@ -14,30 +14,33 @@ PRICES = {  # USD per million tokens: (input, output)
     "claude-opus-5-5": (4.00, 20.00),
 }
 
-model = sys.argv[1] if len(sys.argv) > 1 else "claude-haiku-5-5"
+args = [a for a in sys.argv[1:] if not a.startswith("--")]
+defended = "--defended" in sys.argv
+model = args[0] if args else "claude-haiku-5-5"
+tag = model + ("_defended" if defended else "")
+
 df = pd.read_csv("data/sample_25.csv")
 texts = [Path(p).read_text(encoding="utf-8", errors="ignore") for p in df["txt_path"]]
 
 
 def run(text):
     try:
-        result, usage = review_contract(text, model=model)
+        result, usage = review_contract(text, model=model, defended=defended)
         return result, usage.input_tokens, usage.output_tokens, None
     except Exception as e:
         return {}, 0, 0, str(e)
 
 
-print(f"Reviewing {len(df)} contracts with {model}...")
+print(f"Reviewing {len(df)} contracts with {tag}...")
 with ThreadPoolExecutor(4) as pool:
     outputs = list(pool.map(run, texts))
 
-# Save Claude's raw answers so we never pay twice for the same run
 Path("results").mkdir(exist_ok=True)
 raw = [
     {"contract": df.loc[i, "Filename"], "result": res, "tokens_in": t_in, "tokens_out": t_out, "error": err}
     for i, (res, t_in, t_out, err) in enumerate(outputs)
 ]
-Path(f"results/raw_{model}.json").write_text(json.dumps(raw, indent=2))
+Path(f"results/raw_{tag}.json").write_text(json.dumps(raw, indent=2))
 
 
 def norm(s):
@@ -56,7 +59,7 @@ for i, (res, _, _, _) in enumerate(outputs):
             quotes_found += norm(q) in norm(texts[i])
 
 details = pd.DataFrame(rows)
-details.to_csv(f"results/details_{model}.csv", index=False)
+details.to_csv(f"results/details_{tag}.csv", index=False)
 
 summary = []
 for key in RISKS:
@@ -79,9 +82,10 @@ cost = t_in / 1e6 * p_in + t_out / 1e6 * p_out
 errors = sum(1 for o in outputs if o[3])
 all_tp = int((details.truth & details.predicted).sum())
 all_pos = int(details.truth.sum())
+tripwire = sum(1 for o in outputs if (o[0].get("suspicious_instructions") or {}).get("present"))
 
-report = "\n".join([
-    f"MODEL: {model} | contracts: {len(df)} | errors: {errors}",
+lines = [
+    f"MODEL: {tag} | contracts: {len(df)} | errors: {errors}",
     "",
     pd.DataFrame(summary).to_string(index=False),
     "",
@@ -90,7 +94,10 @@ report = "\n".join([
     f"accuracy: {(details.truth == details.predicted).mean():.0%}",
     f"Quotes found word-for-word: {quotes_found}/{quotes_total}"
     + (f" ({quotes_found / quotes_total:.0%})" if quotes_total else ""),
-    f"Tokens: {t_in:,} in / {t_out:,} out | cost: ${cost:.3f}",
-])
-Path(f"results/summary_{model}.txt").write_text(report)
+]
+if defended:
+    lines.append(f"Tripwire went off on clean contracts: {tripwire}/{len(df)}")
+lines.append(f"Tokens: {t_in:,} in / {t_out:,} out | cost: ${cost:.3f}")
+report = "\n".join(lines)
+Path(f"results/summary_{tag}.txt").write_text(report)
 print(report)
